@@ -1,0 +1,37 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/obj$ ls -al
+total 272
+drwxrwxr-x 2 wruslan wruslan  4096 Dec 30 00:07 .
+drwxrwxr-x 8 wruslan wruslan  4096 Dec 30 00:02 ..
+-rw-rw-r-- 1 wruslan wruslan 11330 Dec 30 00:04 b__main_ada_ck8000.adb
+-rw-rw-r-- 1 wruslan wruslan 28207 Dec 30 00:04 b__main_ada_ck8000.ads
+-rw-rw-r-- 1 wruslan wruslan 13194 Dec 30 00:04 b__main_ada_ck8000.ali
+-rw-rw-r-- 1 wruslan wruslan 22976 Dec 30 00:04 b__main_ada_ck8000.o
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 ck8055.c.stderr
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 ck8055.c.stdout
+-rw-rw-r-- 1 wruslan wruslan    46 Dec 30 00:04 ck8055.cswi
+-rw-rw-r-- 1 wruslan wruslan   166 Dec 30 00:04 ck8055.d
+-rw-rw-r-- 1 wruslan wruslan 14688 Dec 30 00:04 ck8055.o
+-rw-rw-r-- 1 wruslan wruslan 14820 Dec 30 00:04 clang_ref_cache.db
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 cppk8055.cpp.stderr
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 cppk8055.cpp.stdout
+-rw-rw-r-- 1 wruslan wruslan    40 Dec 30 00:04 cppk8055.cswi
+-rw-rw-r-- 1 wruslan wruslan   180 Dec 30 00:04 cppk8055.d
+-rw-rw-r-- 1 wruslan wruslan 17672 Dec 30 00:04 cppk8055.o
+-rw-rw-r-- 1 wruslan wruslan  3838 Dec 30 00:04 gpsauto.cgpr
+-rw-rw-r-- 1 wruslan wruslan 33682 Dec 30 00:04 libgpr_ada_ck8000.a
+-rw-rw-r-- 1 wruslan wruslan   134 Dec 30 00:04 libgpr_ada_ck8000.deps
+-rw-rw-r-- 1 wruslan wruslan   409 Dec 30 00:07 list-of-files-in-obj-directory.txt
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 main_ada_ck8000.adb.stderr
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 main_ada_ck8000.adb.stdout
+-rw-rw-r-- 1 wruslan wruslan  4517 Dec 30 00:04 main_ada_ck8000.ali
+-rw-rw-r-- 1 wruslan wruslan   649 Dec 30 00:04 main_ada_ck8000.bexch
+-rw-rw-r-- 1 wruslan wruslan    45 Dec 30 00:04 main_ada_ck8000.cswi
+-rw-rw-r-- 1 wruslan wruslan  2472 Dec 30 00:04 main_ada_ck8000.o
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 pkg_ada_dtstamp.adb.stderr
+-rw-rw-r-- 1 wruslan wruslan     0 Dec 30 00:04 pkg_ada_dtstamp.adb.stdout
+-rw-rw-r-- 1 wruslan wruslan 10904 Dec 30 00:04 pkg_ada_dtstamp.ali
+-rw-rw-r-- 1 wruslan wruslan    45 Dec 30 00:04 pkg_ada_dtstamp.cswi
+-rw-rw-r-- 1 wruslan wruslan 31888 Dec 30 00:04 pkg_ada_dtstamp.o
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/obj$ 
+
+

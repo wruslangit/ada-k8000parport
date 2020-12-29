@@ -1,0 +1,8 @@
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/exec$ ls -al
+total 76
+drwxrwxr-x 2 wruslan wruslan  4096 Dec 30 00:06 .
+drwxrwxr-x 8 wruslan wruslan  4096 Dec 30 00:02 ..
+-rw-rw-r-- 1 wruslan wruslan   322 Dec 29 18:40 list-of-files-in-exec-directory.txt
+-rwxrwxr-x 1 wruslan wruslan 65320 Dec 30 00:04 main_ada_ck8000.xxx
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/exec$ 
+
