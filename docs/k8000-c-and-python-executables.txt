@@ -1,0 +1,23 @@
+Ub2004-rt38:~$ ls -al /usr/local/bin | grep k8000
+-rwxr-xr-x  1 root root   30168 Apr 17  2020 k8000-chains
+-rwxr-xr-x  1 root root    3159 Nov 19 16:41 k8000-chains.py
+-rwxr-xr-x  1 root root   30744 Apr 17  2020 k8000-clearall
+-rwxr-xr-x  1 root root     960 Nov 19 16:41 k8000-clearall.py
+-rwxr-xr-x  1 root root   31112 Apr 17  2020 k8000-IO-AD
+-rwxr-xr-x  1 root root     963 Nov 19 16:41 k8000-IO-AD.py
+-rwxr-xr-x  1 root root     255 Nov 19 17:03 k8000-MUST-README.sh
+-rwxr-xr-x  1 root root   10108 Nov 19 07:55 k8000.py
+-rw-r--r--  1 root root   13796 Nov 19 16:45 k8000.pyc
+-rwxr-xr-x  1 root root   30800 Apr 17  2020 k8000-running-light
+-rwxr-xr-x  1 root root    1323 Nov 19 16:35 k8000-running-light.py
+-rwxr-xr-x  1 root root  187232 Nov 19 07:56 k8000-wry-random-lights
+Ub2004-rt38:~$ 
+
+Ub2004-rt38:~$ ls -al /usr/local/include | grep k8000
+-rw-r--r--  1 root root  6050 Apr 17  2020 k8000.h
+ 
+Ub2004-rt38:~$ ls -al /usr/local/lib | grep k8000
+-rw-r--r--  1 root    root       32942 Apr 17  2020 libk8000.a
+
+
+===========================================================
