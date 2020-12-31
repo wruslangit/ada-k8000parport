@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_file>
+    <file_marker column=" 77" line=" 13" >
+      <vfs_project>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/ada-k8000parport/src/Cada-k8000/ck8000.h</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 193" >
+      <vfs_project>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/ada-k8000parport/src/Cada-k8000/ck8000.c</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/ada-k8000parport/src/Pkg-ada-ck8000/pkg_ada_ck8000.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 320" >
+      <vfs_project>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/ada-k8000parport/src/Pkg-ada-ck8000/pkg_ada_ck8000.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 9" line=" 1090" >
+      <vfs_project>/home/wruslan/github/ada-k8000parport/gpr_ada_ck8000.gpr</vfs_project>
+      <vfs_file>/home/wruslan/github/ada-k8000parport/src/Cada-k8000/ck8000.c</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

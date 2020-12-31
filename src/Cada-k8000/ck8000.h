@@ -151,7 +151,7 @@ void ReadCard(int card_no);
 void UpdateAll(void);
 void UpdateCard(int card_no);
 void I2CBusNotBusy(void);
-void SetI2cBusdelay(int d);
+void SetI2CBusdelay(int d);
 int  SelectI2CprinterPort(int Printer_no);
 void SelectChain(int chain_no);
 void SetDebug(int d);

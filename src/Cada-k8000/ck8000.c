@@ -1077,7 +1077,7 @@ void SelectChain(int chain_no)
 	activechainnumber = chain_no;
 }
 
-void SetI2cBusdelay(int d)
+void SetI2CBusdelay(int d)
 {
 	I2CbusDelay = d;
 	post_I2CbusDelay = I2CbusDelay /2;
@@ -1087,7 +1087,7 @@ void SetI2cBusdelay(int d)
 void initialize(void)
 {
 	SelectI2CprinterPort(1);
-	SetI2cBusdelay(1000);
+	SetI2CBusdelay(1000);
 	I2CBusNotBusy();
 }
 

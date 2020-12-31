@@ -1,4 +1,4 @@
--- File	: gpr_ada_ck8000.gpr
+-- File	: gpr_ada_k8000.gpr
 -- Date	: Tue 29 Dec 2020 05:30:17 PM +08
 -- Env	: Linux HPEliteBook8470p-Ub2004-rt38 5.4.66-rt38 
 -- #1 SMP PREEMPT_RT Sat Sep 26 16:51:59 +08 2020 x86_64 x86_64 x86_64 GNU/Linux
@@ -9,7 +9,7 @@
 -- SPARK Community 2020 (20200818)
 
 -- ========================================================
-project gpr_ada_ck8000 is
+project gpr_ada_k8000 is
 -- ========================================================
    -- for Languages      use ("Ada", "C", "C++");
    for Languages   use ("Ada", "C");
@@ -19,7 +19,7 @@ project gpr_ada_ck8000 is
    for Object_Dir  use "obj";       -- NOTE: No parantheses
    for Exec_Dir    use "exec";      -- NOTE: No parantheses
    
-   for Main        use ("main_ada_ck8000.adb");
+   for Main        use ("main_ada_k8000.adb");
   
    
    -- ======== File naming ================================
@@ -35,7 +35,7 @@ project gpr_ada_ck8000 is
    -- ======== for gprbuild ===============================
    package Builder is
         -- for Executable ("main_ada_ck8055.adb") use "main_ada_ck8055.xxx";
-        for Executable ("main_ada_ck8000.adb") use "main_ada_ck8000.xxx";
+        for Executable ("main_ada_k8000.adb") use "main_ada_k8000.adx";
    end Builder;
 
    -- ======== for the compiler ===========================
@@ -102,7 +102,7 @@ project gpr_ada_ck8000 is
    end IDE;
 
 -- ========================================================
-end gpr_ada_ck8000;
+end gpr_ada_k8000;
 -- ========================================================
 
 
