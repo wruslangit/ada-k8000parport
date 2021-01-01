@@ -1,0 +1,169 @@
+
+COMPILATION
+===========================================================
+gprbuild -d -P/home/wruslan/github/ada-k8000parport/gpr_ada_k8000.gpr -s -k
+Compile
+   [Ada]          main_ada_k8000.adb
+   [C]            ck8000.c
+   [Ada]          pkg_aada_k8000.adb
+   [Ada]          pkg_ada_dtstamp.adb
+   [Ada]          pkg_ada_k8000.ads
+Bind
+   [gprbind]      main_ada_k8000.bexch
+   [Ada]          main_ada_k8000.ali
+Link
+   [archive]      libgpr_ada_k8000.a
+   [index]        libgpr_ada_k8000.a
+   [link]         main_ada_k8000.adb
+[2021-01-01 09:14:56] process terminated successfully, elapsed time: 01.86s
+
+EXECUTION
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/exec$ ./main_ada_k8000.adx 
+2021-01-01 01:17:13.94020158983 Bismillah 3 times WRY
+2021-01-01 01:17:13.94020208935 Started main_ada_k8000.adb program.
+
+2021-01-01 01:17:13.94020263908 EXECUTE: ExeA_ada_I2C_Send_Data( 5,Bismillah Alhamdulillah 3 times WRY., 8)
+2021-01-01 01:17:13.94020331704 EXECUTE: ExeA_ada_I2C_Read_Data( 5,Bismillah Alhamdulillah 3 times WRY., 8)
+
+2021-01-01 01:17:13.94020402654 EXECUTE: ExeA_ada_read_IO_chip( 1)
+2021-01-01 01:17:13.94020442362 EXECUTE: ExeA_ada_read_all_IO
+2021-01-01 01:17:13.94020466652 EXECUTE: ExeA_ada_read_IO_channel( 2)
+
+2021-01-01 01:17:13.94020509967 EXECUTE: ExeA_ada_IO_output( 1, 200)
+2021-01-01 01:17:13.94020552863 EXECUTE: ExeA_ada_clear_IO_chip( 1) 
+2021-01-01 01:17:13.94020587175 EXECUTE: ExeA_ada_set_IO_chip( 1) 
+2021-01-01 01:17:13.94020620101 EXECUTE: ExeA_ada_set_IO_channel( 2)
+2021-01-01 01:17:13.94020661657 EXECUTE: ExeA_ada_clear_IO_channel( 2)
+2021-01-01 01:17:13.94020690503 EXECUTE: ExeA_ada_clear_all_IO
+2021-01-01 01:17:13.94020718755 EXECUTE: ExeA_ada_set_all_IO
+
+2021-01-01 01:17:13.94020752763 EXECUTE: ExeA_ada_update_IO_chip( 1) 
+2021-01-01 01:17:13.94020789956 EXECUTE: ExeA_ada_update_IO_data_array( 1, 200)
+2021-01-01 01:17:13.94020833295 EXECUTE: ExeA_ada_clear_IO_data_array( 1) 
+2021-01-01 01:17:13.94020867745 EXECUTE: ExeA_ada_set_IO_data_array( 1) 
+2021-01-01 01:17:13.94020901723 EXECUTE: ExeA_ada_set_IO_channel_array( 2)
+2021-01-01 01:17:13.94020936302 EXECUTE: ExeA_ada_clear_IO_channel_array( 2)
+2021-01-01 01:17:13.94020970547 EXECUTE: ExeA_ada_update_all_IO
+
+2021-01-01 01:17:13.94021006190 EXECUTE: ExeA_ada_configure_all_IO_as_input
+2021-01-01 01:17:13.94021033439 EXECUTE: ExeA_ada_configure_all_IO_as_output
+2021-01-01 01:17:13.94021059422 EXECUTE: ExeA_ada_configure_IO_chip_as_input( 1) 
+2021-01-01 01:17:13.94021093621 EXECUTE: ExeA_ada_configure_IO_chip_as_output( 1) 
+2021-01-01 01:17:13.94021128304 EXECUTE: ExeA_ada_configure_IO_channel_as_input( 2)
+2021-01-01 01:17:13.94021163672 EXECUTE: ExeA_ada_configure_IO_channel_as_output( 2)
+
+2021-01-01 01:17:13.94021206144 EXECUTE: ExeA_ada_output_DAC_channel( 2, 200)
+2021-01-01 01:17:13.94021248952 EXECUTE: ExeA_ada_update_DAC_channel( 2)
+2021-01-01 01:17:13.94021283552 EXECUTE: ExeA_ada_clear_DAC_channel( 2)
+2021-01-01 01:17:13.94021317696 EXECUTE: ExeA_ada_set_DAC_channel( 2)
+2021-01-01 01:17:13.94021351668 EXECUTE: ExeA_ada_update_DAC_chip( 1) 
+2021-01-01 01:17:13.94021385366 EXECUTE: ExeA_ada_clear_DAC_chip( 1) 
+2021-01-01 01:17:13.94021419324 EXECUTE: ExeA_ada_set_DAC_chip( 1) 
+2021-01-01 01:17:13.94021453750 EXECUTE: ExeA_ada_update_all_DAC
+2021-01-01 01:17:13.94021480070 EXECUTE: ExeA_ada_clear_all_DAC
+2021-01-01 01:17:13.94021505799 EXECUTE: ExeA_ada_set_all_DAC
+
+2021-01-01 01:17:13.94021540606 EXECUTE: ExeA_ada_output_DA_channel( 2, 200)
+2021-01-01 01:17:13.94021582914 EXECUTE: ExeA_ada_update_DA_channel( 2)
+2021-01-01 01:17:13.94021616752 EXECUTE: ExeA_ada_clear_DA_channel( 2)
+2021-01-01 01:17:13.94021650733 EXECUTE: ExeA_ada_set_DA_channel( 2)
+2021-01-01 01:17:13.94021685700 EXECUTE: ExeA_ada_update_all_DA
+2021-01-01 01:17:13.94021711633 EXECUTE: ExeA_ada_clear_all_DA
+2021-01-01 01:17:13.94021738251 EXECUTE: ExeA_ada_set_all_DA
+
+2021-01-01 01:17:13.94021772651 EXECUTE: ExeA_ada_read_AD_channel( 2)
+2021-01-01 01:17:13.94021805964 EXECUTE: ExeA_ada_read_AD_chip( 1) 
+2021-01-01 01:17:13.94021839979 EXECUTE: ExeA_ada_read_all_AD
+
+2021-01-01 01:17:13.94021873696 EXECUTE: ExeA_ada_read_all
+2021-01-01 01:17:13.94021899590 EXECUTE: ExeA_ada_read_card( 3)
+2021-01-01 01:17:13.94021933561 EXECUTE: ExeA_ada_update_all
+2021-01-01 01:17:13.94021959588 EXECUTE: ExeA_ada_update_card( 3)
+2021-01-01 01:17:13.94021993913 EXECUTE: ExeA_ada_I2C_bus_not_busy
+2021-01-01 01:17:13.94022020140 EXECUTE: ExeA_ada_set_I2C_bus_delay( 4)
+2021-01-01 01:17:13.94022054152 EXECUTE: ExeA_ada_select_chain( 5)
+2021-01-01 01:17:13.94022088294 EXECUTE: ExeA_ada_set_debug( 4)
+2021-01-01 01:17:13.94022121954 EXECUTE: ExeA_ada_set_print_error( 4)
+2021-01-01 01:17:13.94022155635 EXECUTE: ExeA_ada_set_auto_permission( 6)
+
+2021-01-01 01:17:13.94022197491 SUCCESS: GetA_ada_select_I2C_printer_port( 7) =  999
+
+2021-01-01 01:17:13.94022246955 Ended main_ada_k8000.adb program.
+2021-01-01 01:17:13.94022272942 Alhamdulillah 3 times WRY
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github/ada-k8000parport/exec$ 
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github$ tree ada-k8000parport/
+ada-k8000parport/
+├── docs
+│   ├── k8000-c-and-python-executables.txt
+│   ├── session-01-infrastructure-setup.txt
+│   ├── Ubuntu-2004-01-Native-Compiler-Toolchain.txt
+│   └── Ubuntu-2004-02-Computing-Environment.txt
+├── exec
+│   ├── list-of-files-in-exec-directory.txt
+│   └── main_ada_k8000.adx
+├── figures
+│   ├── Velleman-K8000-Parallel-Port-Board.jpg
+│   └── Velleman-K8000-Schematic.jpg
+├── gpr_ada_k8000.gpr
+├── obj
+│   ├── b__main_ada_k8000.adb
+│   ├── b__main_ada_k8000.ads
+│   ├── b__main_ada_k8000.ali
+│   ├── b__main_ada_k8000.o
+│   ├── ck8000.c.stderr
+│   ├── ck8000.c.stdout
+│   ├── ck8000.cswi
+│   ├── ck8000.d
+│   ├── ck8000.o
+│   ├── clang_ref_cache.db
+│   ├── gpr_ada_k8000-loc.xml
+│   ├── gpsauto.cgpr
+│   ├── libgpr_ada_k8000.a
+│   ├── libgpr_ada_k8000.deps
+│   ├── list-of-files-in-obj-directory.txt
+│   ├── main_ada_k8000.adb.stderr
+│   ├── main_ada_k8000.adb.stdout
+│   ├── main_ada_k8000.ali
+│   ├── main_ada_k8000.bexch
+│   ├── main_ada_k8000.cswi
+│   ├── main_ada_k8000.o
+│   ├── pkg_aada_k8000.adb.stderr
+│   ├── pkg_aada_k8000.adb.stdout
+│   ├── pkg_aada_k8000.ali
+│   ├── pkg_aada_k8000.cswi
+│   ├── pkg_aada_k8000.o
+│   ├── pkg_ada_dtstamp.adb.stderr
+│   ├── pkg_ada_dtstamp.adb.stdout
+│   ├── pkg_ada_dtstamp.ali
+│   ├── pkg_ada_dtstamp.cswi
+│   ├── pkg_ada_dtstamp.o
+│   ├── pkg_ada_k8000.ads.stderr
+│   ├── pkg_ada_k8000.ads.stdout
+│   ├── pkg_ada_k8000.ali
+│   ├── pkg_ada_k8000.cswi
+│   └── pkg_ada_k8000.o
+├── README.md
+└── src
+    ├── Cada-k8000
+    │   ├── ck8000.c
+    │   └── ck8000.h
+    ├── main_ada_k8000.adb
+    ├── Pkg-aada-k8000
+    │   ├── pkg_aada_k8000.adb
+    │   └── pkg_aada_k8000.ads
+    ├── Pkg-ada-dtstamp
+    │   ├── pkg_ada_dtstamp.adb
+    │   └── pkg_ada_dtstamp.ads
+    └── Pkg-ada-k8000
+        └── pkg_ada_k8000.ads
+
+9 directories, 54 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github$ 
+
+===========================================================
+ALHAMDULILLAH 3 TIMES WRY.
+===========================================================
+
